@@ -3,12 +3,13 @@
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/anjanisanu"
   },
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "This is my first library",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
   "files": [
-    "dist"
+    "dist",
+    "src"
   ],
   "types": "dist/index.d.ts",
   "scripts": {
@@ -32,6 +33,5 @@
   },
   "peerDependencies": {
     "react": "^17.0.2"
-  },
-  "dependencies": {}
+  }
 }
